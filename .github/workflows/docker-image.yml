@@ -40,14 +40,14 @@ jobs:
     # - name: Build Docker Image
     #   run: |
     #     echo "Iniciando build"
-    #     docker build -t d4ndres/docker-graph-actions:0.0.2 .  
+    #     docker build -t d4ndres/docker-graph-actions:$DOCKER_VERSION .  
     #     docker build -t d4ndres/docker-graph-actions:latest .  
     #     echo "Fin del build"
         
     # - name: Push Docker Image
     #   run: |
     #     echo "Iniciando push"
-    #     docker push d4ndres/docker-graph-actions:0.0.2
+    #     docker push d4ndres/docker-graph-actions:$DOCKER_VERSION
     #     docker push d4ndres/docker-graph-actions:latest
     #     echo "Fin del push"
 
